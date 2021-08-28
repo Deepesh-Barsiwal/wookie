@@ -1,0 +1,82 @@
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  position: sticky;
+
+}
+.nav-link{
+  position: relative;
+
+}
+.nav-link:hover{
+  color:rgb(54, 54, 236) ;
+}
+.nav-link::before{
+  content: '';
+  width: 0%;
+  position: absolute;
+  top: 35px;
+  transition: 1s;
+ 
+}
+.nav-link:hover.nav-link::before{
+  border: 0.5px solid grey;
+  width: 70%;
+  color:rgb(54, 54, 236) ;
+}
+nav form i:hover{
+  color: rgb(54, 54, 236);
+}
+
+.carousel-inner img{
+  height: 92vh;
+}
+.container-fluid .img-grid .img-box{
+  
+overflow: hidden;
+background-size: cover;
+padding: 0%;
+transition: 2s;
+position: relative;
+
+}
+.container-fluid .img-grid .img-box span{
+position: absolute;
+z-index: 3;
+font-size: 1rem;
+padding: 0.8rem;
+background-color: #0D6EFD;
+}
+
+@media screen and (min-width:300px) and  (max-width:990px) {
+  .container-fluid .img-grid .img-box span{
+    font-size: 0.5rem;
+    padding: 0.2rem;
+    background-color: #0D6EFD;
+    }
+ }
+.container-fluid .img-grid .img-box img{
+  transition: 2s;
+  z-index: -1;
+}
+.container-fluid .img-box:hover img{
+  transform: scale(1.1);
+  
+}
+.card{
+  overflow: hidden;
+}
+.card .card-footer{
+  position: relative;
+  top:110px;
+  transition: 1s;
+  background-color: transparent;
+
+}
+.card:hover .card-footer{
+  position: relative;
+  top:-0.5px;
+}
