@@ -3,7 +3,11 @@ import img from '../src/images/blonde-1868701_1920.jpg';
 import img1 from '../src/images/man-2425121_1920.jpg';
 import img2 from '../src/images/model-2911330_1920.jpg';
 import Card from './Card';
-import Sale from './src/images/sale.jpg';
+import Sale from '../src/images/sale.jpg';
+import New from '../src/images/new.jpg';
+import Men from '../src/images/men.jpg'
+import Women from '../src/images/women.jpg'
+import Shoes from '../src/images/shoes.jpg'
 import './index.css';
 import {NavLink} from 'react-router-dom';
 
@@ -69,7 +73,7 @@ const Wookie = () => {
 <div className='row'>
     <div className="col col-12 img-box">
     <span className="badge">NEW</span>
-    <img src={img1} className="w-100"/>
+    <img src={New} className="w-100"/>
     </div>
 </div>
     </div>
@@ -86,7 +90,7 @@ const Wookie = () => {
  <div className='row'>
     <div className="col col-12 img-box">
     <span className="badge">WOMEN</span>
-<img src={img} className="w-100"/>
+<img src={Women} className="w-100"/>
 
     </div>
 </div>
@@ -94,7 +98,7 @@ const Wookie = () => {
 <div className='row'>
     <div className="col col-12 img-box">
     <span className="badge">SHOES</span>
-    <img src={img1} className="w-100"/>
+    <img src={Shoes} className="w-100"/>
     </div>
 </div>
 
@@ -130,13 +134,13 @@ const Wookie = () => {
 
     
     <div className="col col-6 col-md-6 col-xl-3 text-center">
-<Card  img = {img2}    cardBtn="Add To Cart" cardTitle="Thesalt Set" cardText="$20.00"/>
+<Card  img = {Sale}    cardBtn="Add To Cart" cardTitle="Thesalt Set" cardText="$20.00"/>
     </div>
 </div>
 
 <div className="row">
     <div className="col col-6 col-md-6 col-xl-3 text-center">
-<Card  img =  {img} cardBtn="Add To Cart" cardTitle="Frans Van Heerden" cardText="$200.00"/>
+<Card  img =  {New} cardBtn="Add To Cart" cardTitle="Frans Van Heerden" cardText="$200.00"/>
     </div>
 
     <div className="col col-6 col-md-6 col-xl-3 text-center">
@@ -144,12 +148,12 @@ const Wookie = () => {
     </div>
 
     <div className="col col-6 col-md-6 col-xl-3 text-center">
-<Card  img = {img2}    cardBtn="Add To Cart" cardTitle="Torsten Derlaff" cardText="$400.00"/>
+<Card  img = {Shoes}    cardBtn="Add To Cart" cardTitle="Torsten Derlaff" cardText="$400.00"/>
     </div>
 
     
     <div className="col col-6 col-md-6 col-xl-3 text-center">
-<Card  img = {img2}    cardBtn="Add To Cart" cardTitle="Thesalt Set" cardText="$20.00"/>
+<Card  img = {New}    cardBtn="Add To Cart" cardTitle="Thesalt Set" cardText="$20.00"/>
     </div>
 </div>
 
@@ -159,7 +163,7 @@ const Wookie = () => {
     </div>
 
     <div className="col col-6 col-md-6 col-xl-3 text-center">
-<Card  img = {img1}  cardBtn="Add To Cart" cardTitle="Shvets Ts" cardText="$10.00" />
+<Card  img = {Women}  cardBtn="Add To Cart" cardTitle="Shvets Ts" cardText="$10.00" />
     </div>
 
     <div className="col col-6 col-md-6 col-xl-3 text-center">
@@ -168,7 +172,7 @@ const Wookie = () => {
 
     
     <div className="col col-6 col-md-6 col-xl-3 text-center">
-<Card  img = {img2}    cardBtn="Add To Cart" cardTitle="Thesalt Set" cardText="$20.00"/>
+<Card  img = {img}    cardBtn="Add To Cart" cardTitle="TheMagna Set" cardText="$20.00"/>
     </div>
 </div>
 

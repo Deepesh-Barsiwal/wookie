@@ -34,9 +34,13 @@ nav form i:hover{
 .carousel-inner img{
   height: 92vh;
 }
+.container-fluid .img-grid img{
+
+}
 .container-fluid .img-grid .img-box{
   
 overflow: hidden;
+
 background-size: cover;
 padding: 0%;
 transition: 2s;
@@ -68,6 +72,7 @@ background-color: #0D6EFD;
 }
 .card{
   overflow: hidden;
+  text-align:center;
 }
 .card .card-footer{
   position: relative;

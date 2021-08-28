@@ -5,8 +5,10 @@ import img2 from '../src/images/model-2911330_1920.jpg';
 
 import './index.css'
 const Card = (props) => {
+  
     return (
         <>
+        <h2></h2>
            <div className="card m-1">
   <img src ={props.img} className="card-img-top" alt="..."/>
   <div className="card-body">
