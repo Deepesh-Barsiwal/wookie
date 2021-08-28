@@ -3,6 +3,7 @@ import img from '../src/images/blonde-1868701_1920.jpg';
 import img1 from '../src/images/man-2425121_1920.jpg';
 import img2 from '../src/images/model-2911330_1920.jpg';
 import Card from './Card';
+import Sale from './src/images/sale.jpg';
 import './index.css';
 import {NavLink} from 'react-router-dom';
 
@@ -60,7 +61,7 @@ const Wookie = () => {
 <div className='row'>
     <div className="col col-12 img-box">
     <span className="badge">SALES</span>
-<img src={img} className="w-100"/>
+<img src={Sale} className="w-100"/>
 
     </div>
 </div>
