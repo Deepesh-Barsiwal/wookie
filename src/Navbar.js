@@ -20,10 +20,6 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink className="nav-link px-3 fw-bold" to="/women">Women</NavLink>
         </li>
-         <li className="nav-item">
-          <NavLink className="nav-link px-3 fw-bold" to="/cart">Cart</NavLink>
-        </li>
-      
       </ul>
       <form className="d-flex align-items-center">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
