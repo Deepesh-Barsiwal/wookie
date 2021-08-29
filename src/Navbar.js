@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './index.css'
+import './index.css';
+import Form from './Form.js'
 
 const Navbar = () => {
     return (
@@ -19,13 +20,25 @@ const Navbar = () => {
         <li className="nav-item">
           <NavLink className="nav-link px-3 fw-bold" to="/women">Women</NavLink>
         </li>
+         <li className="nav-item">
+          <NavLink className="nav-link px-3 fw-bold" to="/cart">Cart</NavLink>
+        </li>
       
       </ul>
       <form className="d-flex align-items-center">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
     <NavLink to="/" className="text-dark"><i class="fas fa-search fs-4"></i></NavLink>
      <NavLink to="/"  className="text-dark"> <i class="fas fa-shopping-cart  fs-4 mx-3"></i></NavLink>
-       <NavLink to="/"  className="text-dark"> <i class="fas fa-user-alt  fs-4"></i></NavLink>
+<div class="dropstart">
+  <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+      <i className="fas fa-user-alt  fs-4"></i>
+  </button>
+  <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
+    <li><NavLink class="dropdown-item" to="/form">SIGN IN</NavLink></li>
+    <li><NavLink class="dropdown-item" to="#">REGISTER</NavLink></li>
+  </ul>
+</div>
+       
       </form>
     </div>
   </div>
