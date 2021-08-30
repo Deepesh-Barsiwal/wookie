@@ -24,7 +24,7 @@ const Navbar = () => {
       <form className="d-flex align-items-center">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
     <NavLink to="/" className="text-dark"><i class="fas fa-search fs-4"></i></NavLink>
-     <NavLink to="/"  className="text-dark"> <i class="fas fa-shopping-cart  fs-4 mx-3"></i></NavLink>
+     <NavLink to="/cart"  className="text-dark"> <i class="fas fa-shopping-cart  fs-4 mx-3"></i></NavLink>
 <div class="dropstart">
   <button class="btn btn-secondary dropdown-toggle bg-dark" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
       <i className="fas fa-user-alt  fs-4"></i>

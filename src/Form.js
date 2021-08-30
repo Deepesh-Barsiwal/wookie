@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import {NavLink} from 'react-router-dom'
+
 
 const Form = () => {
     const validation = ()=>{
@@ -28,7 +28,7 @@ if(pwd.value.length <10){
         <>
          <div className="container form-container">
          <div className="text-center fs-1 fw-bold">SIGN IN</div>
-           <form   >
+           <form action="#">
           
           <div className="form-group">
            <label htmlFor ="email"> EMAIL ADDRESS :</label>
@@ -42,7 +42,7 @@ if(pwd.value.length <10){
            <span id = "pwdV" className="text-danger"></span>
          </div>
 
-        <NavLink to="/" className="btn btn-primary my-4" onClick = {()=>validation}>SUBMIT</NavLink>
+         <a href="#" type = "submit"className="btn btn-primary my-4" onClick = {validation}>SUBMIT</a>
    </form>
            
            </div>

@@ -14,7 +14,7 @@ const Register = () => {
         var Cpwd = document.getElementById('Cpwd')
         var CpwdV = document.getElementById('CpwdV')
         if (name.value === '') {
-            nameV.innerHTML="PLEASE THE BLANK"
+            nameV.innerHTML="PLEASE FILL THE BLANK"
             return false;
         }
         if (!isNaN(name.value)) {
@@ -52,7 +52,7 @@ if(pwd.value !== Cpwd.value){
         <>
           <div className="container form-container">
          <div className="text-center fs-1 fw-bold">CREATE YOUR ACCOUNT HERE</div>
-           <form   >
+           <form>
            <div className="form-group">
            <label htmlFor ="name"> Your NAME</label>
            <input type="text" id="name" className="form-control my-1"/>
@@ -77,7 +77,7 @@ if(pwd.value !== Cpwd.value){
            <input type="password" id="Cpwd" className="form-control my-1"/>
            <span id = "CpwdV" className="text-danger"></span>
          </div>
-        <a href="#" className="btn btn-primary my-4" onClick = {validation}>SIGN UP</a>
+        <a href="#" className="btn btn-primary my-4" onClick = {()=>validation}>SIGN UP</a>
    </form>
            
            </div>
