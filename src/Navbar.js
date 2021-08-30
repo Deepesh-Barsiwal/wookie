@@ -31,7 +31,7 @@ const Navbar = () => {
   </button>
   <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1">
     <li><NavLink class="dropdown-item" to="/form">SIGN IN</NavLink></li>
-    <li><NavLink class="dropdown-item" to="#">REGISTER</NavLink></li>
+    <li><NavLink class="dropdown-item" to="/register">REGISTER</NavLink></li>
   </ul>
 </div>
        

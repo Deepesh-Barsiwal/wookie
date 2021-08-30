@@ -6,6 +6,7 @@ import Women from './Women';
 import Wookie from './Home';
 import Footer from './Footer.js';
 import Form from './Form'
+import Register from './Register';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route  exact path='/men' component={Men}/>
       <Route  exact path='/women' component={Women}/>
         <Route  exact path='/form' component={Form}/>
+        <Route  exact path='/register' component={Register}/>
        <Redirect to= "/"/>
       </Switch>
     <Footer/>
