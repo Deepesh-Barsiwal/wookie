@@ -77,7 +77,7 @@ if(pwd.value !== Cpwd.value){
            <input type="password" id="Cpwd" className="form-control my-1"/>
            <span id = "CpwdV" className="text-danger"></span>
          </div>
-        <a href="#" className="btn btn-primary my-4" onClick = {()=>validation}>SIGN UP</a>
+        <a href="#" className="btn btn-primary my-4" onClick = {validation}>SIGN UP</a>
    </form>
            
            </div>
